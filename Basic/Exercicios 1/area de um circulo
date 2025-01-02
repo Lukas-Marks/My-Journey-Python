@@ -1,0 +1,9 @@
+def main():
+
+    pi = 3.14159
+    raio = float(input("Qual o raio do circulo?"))
+    area = (raio ** 2) * pi
+
+    print(area)
+if __name__ == "__main__":
+    main()
